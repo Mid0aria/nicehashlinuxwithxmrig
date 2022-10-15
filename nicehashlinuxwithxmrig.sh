@@ -8,7 +8,7 @@ tar -xf xmrig-6.18.0-linux-static-x64.tar.gz
 
 cd xmrig-6.18.0
 
-./xmrig -o stratum+tcp://randomxmonero.auto.nicehash.com:9200 -u $nicehashwallet -p x -k --nicehash -a rx/0
+./xmrig -o stratum+ssl://randomxmonero.auto.nicehash.com:443 -u $nicehashwallet -p x -k --nicehash -a rx/0
 
 
 
